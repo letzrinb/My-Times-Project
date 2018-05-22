@@ -27,3 +27,30 @@ nav span{
   display: inline-block;
   padding: 20px 10px;
 }
+/*Temporary border*/
+div{
+  border: 1px solid black;
+}
+.content{
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+.column.large{
+  width: 630px;
+}
+.column.medium{
+  width: 300px;
+}
+.column.small{
+  width: 240px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.narrative{
+  display: block;
+}
